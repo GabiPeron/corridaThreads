@@ -43,5 +43,7 @@ public class Carro extends Thread {
 			
 			System.out.println(this.nome + " atual: " + this.distancia);
 		}
+		
+		System.out.println(this.nome + " Finalizou a corrida com: " + this.distancia + " metros de distância");
 	}
 }
